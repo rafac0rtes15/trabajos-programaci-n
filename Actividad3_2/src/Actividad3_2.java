@@ -1,4 +1,4 @@
-pimport java.util.Scanner;
+import java.util.Scanner;
 /*Verificar edad para votar: Escribe un programa que verifique si una persona es elegible para votar. La edad mínima para votar es de 18 años.*/
 public class Actividad3_2{
     public static void main(String[] args) throws Exception {

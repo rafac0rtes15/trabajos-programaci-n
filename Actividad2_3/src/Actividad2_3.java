@@ -1,3 +1,5 @@
+/*Calcular Promedio: Desarrolla un programa que calcule el promedio de 3 numeros que el usuario 
+haya ingresado */
 import java.util.Scanner;
 public class Actividad2_3 {
     public static void main(String[] args) throws Exception {
@@ -11,5 +13,6 @@ public class Actividad2_3 {
     estatura= a.nextFloat();
     imc=peso/(estatura*estatura);
     System.out.print("su IMC es de:"+ imc);
+    a.close();
     }
 }
